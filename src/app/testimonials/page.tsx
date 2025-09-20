@@ -1,10 +1,9 @@
-'use client';
-
 import React from 'react';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import TestimonialForm from '@/components/TestimonialForm';
+import TestimonialSubmission from '@/components/TestimonialSubmission';
+import StarRating from '@/components/StarRating';
 
 const TestimonialsPage = () => {
   // Array of testimonials
@@ -65,19 +64,7 @@ const TestimonialsPage = () => {
     }
   ];
 
-  const renderStars = (rating: number) => {
-    return Array(5).fill(0).map((_, i) => (
-      <svg 
-        key={i} 
-        xmlns="http://www.w3.org/2000/svg" 
-        viewBox="0 0 24 24" 
-        fill={i < rating ? "currentColor" : "none"} 
-        className={`w-5 h-5 ${i < rating ? 'text-amber-500' : 'text-gray-300 stroke-1 stroke-gray-300'}`}
-      >
-        <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd" />
-      </svg>
-    ));
-  };
+  // Using the StarRating component instead of inline rendering
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -116,7 +103,7 @@ const TestimonialsPage = () => {
                   </div>
                   
                   <div className="flex mb-4">
-                    {renderStars(testimonial.rating)}
+                    <StarRating rating={testimonial.rating} />
                   </div>
                   
                   <p className="text-gray-700 italic mb-4">&ldquo;{testimonial.quote}&rdquo;</p>
@@ -139,7 +126,7 @@ const TestimonialsPage = () => {
               We value your feedback! If you&apos;ve done business with us, please consider sharing your experience.
             </p>
             
-            <TestimonialForm />
+            <TestimonialSubmission />
           </div>
         </div>
       </div>
