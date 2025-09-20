@@ -22,7 +22,7 @@ const TestimonialsPage = () => {
       role: "Private Collector",
       location: "United States",
       image: "/images/testimonials/sarah-johnson.jpg",
-      quote: "I&apos;ve been collecting gold for over 15 years, and my experience with East African Gold Exchange has been outstanding. The purity of their gold is consistently excellent, and their customer service team has always been responsive and knowledgeable.",
+      quote: "I've been collecting gold for over 15 years, and my experience with East African Gold Exchange has been outstanding. The purity of their gold is consistently excellent, and their customer service team has always been responsive and knowledgeable.",
       rating: 5
     },
     {
@@ -31,7 +31,7 @@ const TestimonialsPage = () => {
       role: "Jewelry Manufacturer",
       location: "Nigeria",
       image: "/images/testimonials/michael-okafor.jpg",
-      quote: "Finding a reliable supplier of high-quality gold was crucial for our jewelry business. East African Gold Exchange delivers exceptional products with consistent purity and color. Their logistics are smooth, and we&apos;ve never had an issue with delayed shipments.",
+      quote: "Finding a reliable supplier of high-quality gold was crucial for our jewelry business. East African Gold Exchange delivers exceptional products with consistent purity and color. Their logistics are smooth, and we've never had an issue with delayed shipments.",
       rating: 5
     },
     {
@@ -49,7 +49,7 @@ const TestimonialsPage = () => {
       role: "Gold Trading Company CEO",
       location: "India",
       image: "/images/testimonials/rajiv-patel.jpg",
-      quote: "We&apos;ve established a long-term partnership with East African Gold Exchange for our wholesale gold needs. Their pricing is competitive, their documentation is always in perfect order, and they maintain strict ethical standards in their sourcing.",
+      quote: "We've established a long-term partnership with East African Gold Exchange for our wholesale gold needs. Their pricing is competitive, their documentation is always in perfect order, and they maintain strict ethical standards in their sourcing.",
       rating: 5
     },
     {
@@ -69,8 +69,8 @@ const TestimonialsPage = () => {
         key={i} 
         xmlns="http://www.w3.org/2000/svg" 
         viewBox="0 0 24 24" 
-        fill={i < rating ? &ldquo;currentColor&rdquo; : "none"} 
-        className={`w-5 h-5 ${i < rating ? &lsquo;text-amber-500&rsquo; : 'text-gray-300 stroke-1 stroke-gray-300'}`}
+        fill={i < rating ? "currentColor" : "none"} 
+        className={`w-5 h-5 ${i < rating ? 'text-amber-500' : 'text-gray-300 stroke-1 stroke-gray-300'}`}
       >
         <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd" />
       </svg>
