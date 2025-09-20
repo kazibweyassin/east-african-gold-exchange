@@ -1,0 +1,240 @@
+import React from 'react';
+import Image from 'next/image';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+
+export default function SecurityPage() {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <div className="container mx-auto px-4 py-16 flex-grow">
+        <h1 className="text-4xl font-bold text-center mb-12 mt-16">Your Security Is Our Priority</h1>
+      
+      <div className="max-w-4xl mx-auto">
+        <p className="text-lg mb-8">
+          At East African Gold Exchange, we understand that security is paramount when dealing with precious metals.
+          Our comprehensive security measures ensure your investments, transactions, and personal information
+          are protected at every step of the process.
+        </p>
+
+        <div className="mb-16">
+          <h2 className="text-3xl font-semibold mb-6">Transaction Security</h2>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h3 className="text-2xl font-medium mb-4">Secure Payment Processing</h3>
+            <div className="flex items-start mb-6">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  Our payment systems are secured with bank-grade 256-bit SSL encryption to protect your financial information.
+                  We partner with globally recognized payment processors that comply with PCI DSS standards, ensuring your 
+                  payment details never fall into the wrong hands.
+                </p>
+              </div>
+            </div>
+            
+            <h3 className="text-2xl font-medium mb-4">Verification Protocols</h3>
+            <div className="flex items-start mb-6">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  Every transaction undergoes rigorous verification procedures including multi-factor authentication
+                  and identity verification. For large transactions, we implement additional security measures including
+                  phone verification and transaction-specific passcodes.
+                </p>
+              </div>
+            </div>
+            
+            <h3 className="text-2xl font-medium mb-4">Anti-Fraud Measures</h3>
+            <div className="flex items-start">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m0-10.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.75c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.75h-.152c-3.196 0-6.1-1.249-8.25-3.286zm0 13.036h.008v.008H12v-.008z" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  Our advanced fraud detection systems monitor transactions in real-time to identify and prevent
+                  suspicious activities. We employ machine learning algorithms that continuously improve to stay ahead
+                  of emerging fraud patterns in the precious metals market.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-16">
+          <h2 className="text-3xl font-semibold mb-6">Physical Security</h2>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h3 className="text-2xl font-medium mb-4">Vault Storage</h3>
+            <div className="flex items-start mb-6">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  All gold in our custody is stored in state-of-the-art, maximum-security vaults equipped with
+                  cutting-edge security systems. Our storage facilities feature:
+                </p>
+                <ul className="list-disc ml-6 mt-4 space-y-2">
+                  <li>24/7 armed security personnel</li>
+                  <li>Advanced biometric access controls</li>
+                  <li>Motion detection systems</li>
+                  <li>Redundant alarm systems with direct police connection</li>
+                  <li>Seismic sensors for vault breach detection</li>
+                </ul>
+              </div>
+            </div>
+            
+            <h3 className="text-2xl font-medium mb-4">Insurance Coverage</h3>
+            <div className="flex items-start">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  Every ounce of gold in our custody is fully insured through Lloyd's of London, one of the world's most
+                  trusted insurance markets. Our comprehensive insurance policy covers:
+                </p>
+                <ul className="list-disc ml-6 mt-4 space-y-2">
+                  <li>Physical theft or loss</li>
+                  <li>Damage during storage</li>
+                  <li>Transit insurance for shipments</li>
+                  <li>Natural disasters and acts of God</li>
+                  <li>Coverage up to the full market value of your holdings</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-16">
+          <h2 className="text-3xl font-semibold mb-6">Compliance & Regulations</h2>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h3 className="text-2xl font-medium mb-4">Regulatory Compliance</h3>
+            <div className="flex items-start mb-6">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25h.375a9 9 0 019 9v.375M10.125 2.25A3.375 3.375 0 0113.5 5.625v1.5c0 .621.504 1.125 1.125 1.125h1.5a3.375 3.375 0 013.375 3.375M9 15l2.25 2.25L15 12" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  We strictly adhere to all relevant regulations in both Tanzania and international markets where we operate.
+                  Our compliance team works diligently to ensure we meet or exceed all legal requirements including:
+                </p>
+                <ul className="list-disc ml-6 mt-4 space-y-2">
+                  <li>Anti-Money Laundering (AML) regulations</li>
+                  <li>Know Your Customer (KYC) protocols</li>
+                  <li>Tanzanian Mining Act compliance</li>
+                  <li>OECD Due Diligence Guidance for Responsible Supply Chains</li>
+                  <li>Responsible sourcing initiatives</li>
+                </ul>
+              </div>
+            </div>
+            
+            <h3 className="text-2xl font-medium mb-4">Independent Auditing</h3>
+            <div className="flex items-start">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  Our operations undergo regular audits by respected third-party firms to verify our inventory,
+                  security practices, and compliance measures. These audits ensure:
+                </p>
+                <ul className="list-disc ml-6 mt-4 space-y-2">
+                  <li>Physical verification of all customer gold holdings</li>
+                  <li>Assessment of security protocols</li>
+                  <li>Review of transaction records</li>
+                  <li>Validation of supply chain documentation</li>
+                  <li>Audit reports are available to customers upon request</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-16">
+          <h2 className="text-3xl font-semibold mb-6">Data Protection</h2>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h3 className="text-2xl font-medium mb-4">Privacy & Data Security</h3>
+            <div className="flex items-start mb-6">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  Your personal and financial information is protected with enterprise-grade security measures.
+                  Our data protection protocols include:
+                </p>
+                <ul className="list-disc ml-6 mt-4 space-y-2">
+                  <li>End-to-end encryption for all communications</li>
+                  <li>Secure data centers with multiple redundancies</li>
+                  <li>Regular security penetration testing</li>
+                  <li>Employee access controls and monitoring</li>
+                  <li>Compliance with global data protection standards</li>
+                </ul>
+              </div>
+            </div>
+            
+            <h3 className="text-2xl font-medium mb-4">Cyber Security</h3>
+            <div className="flex items-start">
+              <div className="bg-amber-100 p-3 rounded-full mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-lg">
+                  Our digital infrastructure is protected by multiple layers of security to prevent unauthorized access:
+                </p>
+                <ul className="list-disc ml-6 mt-4 space-y-2">
+                  <li>Advanced firewalls and intrusion detection systems</li>
+                  <li>Regular vulnerability assessments and patch management</li>
+                  <li>DDoS protection to ensure continuous service</li>
+                  <li>24/7 security operations center monitoring</li>
+                  <li>Regular staff security awareness training</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-center py-6">
+          <h2 className="text-3xl font-semibold mb-6">Your Peace of Mind is Our Success</h2>
+          <p className="text-lg mb-8">
+            At East African Gold Exchange, we've built our reputation on trust, security, and transparency.
+            When you choose us as your gold trading partner, you can be confident that your investments
+            are protected by the industry's highest security standards.
+          </p>
+          <div className="mt-8">
+            <a href="/contact" className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+              Contact Our Security Team
+            </a>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}

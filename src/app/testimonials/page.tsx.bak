@@ -1,0 +1,230 @@
+import React from 'react';
+import Image from 'next/image';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+
+const TestimonialsPage = () => {
+  // Array of testimonials
+  const testimonials = [
+    {
+      id: 1,
+      name: "David Chen",
+      role: "Investment Portfolio Manager",
+      location: "Singapore",
+      image: "/images/testimonials/david-chen.jpg",
+      quote: "As a portfolio manager handling significant assets, I needed a reliable gold supplier with impeccable credentials. East African Gold Exchange has been exceptional in every transaction. Their authentication processes give me complete confidence when making large purchases for my clients.",
+      rating: 5
+    },
+    {
+      id: 2,
+      name: "Sarah Johnson",
+      role: "Private Collector",
+      location: "United States",
+      image: "/images/testimonials/sarah-johnson.jpg",
+      quote: "I've been collecting gold for over 15 years, and my experience with East African Gold Exchange has been outstanding. The purity of their gold is consistently excellent, and their customer service team has always been responsive and knowledgeable.",
+      rating: 5
+    },
+    {
+      id: 3,
+      name: "Michael Okafor",
+      role: "Jewelry Manufacturer",
+      location: "Nigeria",
+      image: "/images/testimonials/michael-okafor.jpg",
+      quote: "Finding a reliable supplier of high-quality gold was crucial for our jewelry business. East African Gold Exchange delivers exceptional products with consistent purity and color. Their logistics are smooth, and we've never had an issue with delayed shipments.",
+      rating: 5
+    },
+    {
+      id: 4,
+      name: "Elena Petrova",
+      role: "Private Investor",
+      location: "Russia",
+      image: "/images/testimonials/elena-petrova.jpg",
+      quote: "During economic uncertainty, I decided to diversify my portfolio with physical gold. East African Gold Exchange made the process straightforward even for someone new to precious metals investing. Their educational resources were particularly helpful.",
+      rating: 4
+    },
+    {
+      id: 5,
+      name: "Rajiv Patel",
+      role: "Gold Trading Company CEO",
+      location: "India",
+      image: "/images/testimonials/rajiv-patel.jpg",
+      quote: "We've established a long-term partnership with East African Gold Exchange for our wholesale gold needs. Their pricing is competitive, their documentation is always in perfect order, and they maintain strict ethical standards in their sourcing.",
+      rating: 5
+    },
+    {
+      id: 6,
+      name: "Aisha Mohammed",
+      role: "Fine Jewelry Designer",
+      location: "UAE",
+      image: "/images/testimonials/aisha-mohammed.jpg",
+      quote: "The quality and consistency of gold from East African Gold Exchange has allowed us to create our signature jewelry pieces with confidence. Their commitment to ethical sourcing also aligns perfectly with our brand values.",
+      rating: 5
+    }
+  ];
+
+  const renderStars = (rating: number) => {
+    return Array(5).fill(0).map((_, i) => (
+      <svg 
+        key={i} 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 24 24" 
+        fill={i < rating ? "currentColor" : "none"} 
+        className={`w-5 h-5 ${i < rating ? 'text-amber-500' : 'text-gray-300 stroke-1 stroke-gray-300'}`}
+      >
+        <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd" />
+      </svg>
+    ));
+  };
+
+  return (
+      );
+
+  const renderTestimonials = () => {
+    return (
+    <div className="container mx-auto px-4 py-16">
+      <h1 className="text-4xl font-bold text-center mb-4">Customer Testimonials</h1>
+      <p className="text-lg text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+        Hear from our satisfied customers who have experienced the quality, security, 
+        and service excellence that East African Gold Exchange is known for.
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {testimonials.map((testimonial) => (
+          <div key={testimonial.id} className="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+            <div className="p-8">
+              <div className="flex items-center mb-6">
+                <div className="w-16 h-16 rounded-full overflow-hidden mr-4 bg-gray-200 flex-shrink-0">
+                  {/* Image placeholder - in production use actual images */}
+                  <div className="w-full h-full bg-amber-100 flex items-center justify-center text-amber-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                    </svg>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-xl">{testimonial.name}</h3>
+                  <p className="text-gray-600">{testimonial.role}</p>
+                  <p className="text-gray-500 text-sm">{testimonial.location}</p>
+                </div>
+              </div>
+
+              <div className="mb-4">
+                <div className="flex mb-1">
+                  {renderStars(testimonial.rating)}
+                </div>
+              </div>
+
+              <blockquote className="italic text-gray-700 mb-4">
+                "{testimonial.quote}"
+              </blockquote>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="mt-16 text-center">
+        <h2 className="text-2xl font-semibold mb-6">Join Our Satisfied Customers</h2>
+        <p className="text-lg mb-8 max-w-3xl mx-auto">
+          Experience the East African Gold Exchange difference for yourself. Whether you're a first-time gold buyer or a seasoned investor, 
+          our commitment to quality, security, and customer satisfaction remains the same.
+        </p>
+        <div className="flex justify-center space-x-4">
+          <a href="/contact" className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+            Contact Us
+          </a>
+          <a href="/services" className="border border-amber-600 hover:bg-amber-50 text-amber-600 font-bold py-3 px-6 rounded-lg transition duration-300">
+            Our Services
+          </a>
+        </div>
+      </div>
+
+      <div className="mt-16 bg-amber-50 p-8 rounded-xl">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Submit Your Testimonial</h2>
+        <p className="text-center mb-8">
+          Are you a satisfied customer? We'd love to hear about your experience with East African Gold Exchange.
+        </p>
+        
+        <form className="max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div>
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-amber-500 focus:border-amber-500"
+                placeholder="Your Name"
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-amber-500 focus:border-amber-500"
+                placeholder="your.email@example.com"
+              />
+            </div>
+          </div>
+          
+          <div className="mb-6">
+            <label htmlFor="role" className="block text-sm font-medium text-gray-700 mb-1">Role/Company (Optional)</label>
+            <input
+              type="text"
+              id="role"
+              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-amber-500 focus:border-amber-500"
+              placeholder="Investor, Jeweler, Collector, etc."
+            />
+          </div>
+          
+          <div className="mb-6">
+            <label htmlFor="testimonial" className="block text-sm font-medium text-gray-700 mb-1">Your Experience</label>
+            <textarea
+              id="testimonial"
+              rows={5}
+              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-amber-500 focus:border-amber-500"
+              placeholder="Share your experience with East African Gold Exchange..."
+            ></textarea>
+          </div>
+          
+          <div className="mb-6">
+            <label className="block text-sm font-medium text-gray-700 mb-2">Your Rating</label>
+            <div className="flex">
+              {[1, 2, 3, 4, 5].map((rating) => (
+                <button
+                  key={rating}
+                  type="button"
+                  className="text-gray-300 hover:text-amber-500 focus:outline-none"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
+                    <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clipRule="evenodd" />
+                  </svg>
+                </button>
+              ))}
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <button
+              type="submit"
+              className="bg-amber-600 hover:bg-amber-700 text-white font-medium py-2 px-6 rounded-md transition duration-300"
+            >
+              Submit Testimonial
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+  
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <div className="flex-grow pt-20">
+        {renderContent()}
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default TestimonialsPage;

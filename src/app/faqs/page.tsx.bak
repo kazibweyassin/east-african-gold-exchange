@@ -1,0 +1,398 @@
+import React from 'react';
+import Link from 'next/link';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+
+const FAQsPage = () => {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <div className="flex-grow pt-20">
+        <div className="container mx-auto px-4 py-16">
+      <h1 className="text-4xl font-bold text-center mb-4">Frequently Asked Questions</h1>
+      <p className="text-lg text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+        Find answers to common questions about gold investing, our products, services, and processes.
+      </p>
+
+      {/* FAQ Categories */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <a href="#buying-gold" className="bg-amber-50 rounded-xl p-6 transition-transform duration-300 hover:scale-105 hover:shadow-md">
+          <div className="bg-amber-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.75c.414 0 .75.336.75.75v.75m0 0H18a2.25 2.25 0 002.25-2.25V6.75m0 0H5.625c-.621 0-1.125.504-1.125 1.125v3.75m18-3.75c0 .621-.504 1.125-1.125 1.125h-1.5m-16.5-1.5c0 .621.504 1.125 1.125 1.125h1.5m0-1.125c0-.621-.504-1.125-1.125-1.125H5.625m1.5 0h9.75c.621 0 1.125.504 1.125 1.125v3.75m-10.5-3.75c0 .621.504 1.125 1.125 1.125h1.5m-1.5 0c0 .621.504 1.125 1.125 1.125h1.5m-1.5 0h1.5c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125h-1.5m1.5-3.75h1.5c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125h-1.5m-1.5-6h3m-3 0h-3m3 0v3m0-3v-3" />
+            </svg>
+          </div>
+          <h2 className="text-xl font-semibold mb-2">Buying Gold</h2>
+          <p className="text-gray-600 mb-3">Questions about purchasing process, minimum orders, and payment methods.</p>
+          <div className="text-amber-600 font-medium flex items-center">
+            View answers
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+        
+        <a href="#gold-quality" className="bg-amber-50 rounded-xl p-6 transition-transform duration-300 hover:scale-105 hover:shadow-md">
+          <div className="bg-amber-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+            </svg>
+          </div>
+          <h2 className="text-xl font-semibold mb-2">Gold Quality & Purity</h2>
+          <p className="text-gray-600 mb-3">Information about our gold standards, verification, and quality control.</p>
+          <div className="text-amber-600 font-medium flex items-center">
+            View answers
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+        
+        <a href="#shipping-delivery" className="bg-amber-50 rounded-xl p-6 transition-transform duration-300 hover:scale-105 hover:shadow-md">
+          <div className="bg-amber-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-600">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+            </svg>
+          </div>
+          <h2 className="text-xl font-semibold mb-2">Shipping & Delivery</h2>
+          <p className="text-gray-600 mb-3">Details about shipping methods, insurance, tracking, and estimated delivery times.</p>
+          <div className="text-amber-600 font-medium flex items-center">
+            View answers
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      {/* Buying Gold Section */}
+      <div id="buying-gold" className="max-w-3xl mx-auto mb-16 scroll-mt-24">
+        <h2 className="text-2xl font-bold mb-8 pb-2 border-b border-gray-200">Buying Gold</h2>
+        
+        <div className="space-y-6">
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                What is the minimum amount of gold I can purchase?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Our minimum order amount is 1 gram of gold for bars and coins. For larger investors, we recommend starting with at least 1 ounce (about 31.1 grams) to optimize value, as smaller denominations typically carry higher premiums over the spot price.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                What payment methods do you accept?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>We accept several payment methods:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>Bank wire transfers (preferred for larger orders)</li>
+                  <li>Credit and debit cards (Visa, Mastercard, American Express)</li>
+                  <li>PayPal (for orders under $10,000)</li>
+                  <li>Cryptocurrency (Bitcoin, Ethereum)</li>
+                </ul>
+                <p className="mt-2">Note that payment method may affect processing time and fees. Bank transfers typically offer the best rates for large orders.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                How is the price of gold determined?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Our gold pricing is based on the current global spot price plus a premium that varies by product. The premium covers:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>Manufacturing and minting costs</li>
+                  <li>Authentication and quality assurance</li>
+                  <li>Secure packaging and handling</li>
+                  <li>Insurance and shipping</li>
+                </ul>
+                <p className="mt-2">Premiums are typically lower for larger bars and higher for smaller denominations and collectible coins. Our transparent pricing shows both the spot price and premium for all products.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                Can I lock in today's gold price for a future purchase?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Yes, we offer price locking options:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>For immediate purchases, prices are locked once payment is initiated</li>
+                  <li>For larger orders, we offer 24-hour price locks with a 10% deposit</li>
+                  <li>Corporate customers can arrange forward contracts for bulk purchases</li>
+                </ul>
+                <p className="mt-2">Contact our trading desk for specific arrangements on large orders or to discuss customized options for your investment strategy.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                Do you offer investment accounts or gold savings programs?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Yes, we offer several options for systematic gold investment:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li><strong>Gold Accumulation Plan</strong>: Regular monthly purchases at average prices</li>
+                  <li><strong>Allocated Storage Account</strong>: Buy gold that remains securely stored in our vaults</li>
+                  <li><strong>Gold Savings Account</strong>: Build gold holdings with smaller regular contributions</li>
+                </ul>
+                <p className="mt-2">These programs allow you to steadily build your gold position while minimizing the impact of short-term price fluctuations. Each comes with detailed statements and the ability to take physical delivery when desired.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      {/* Gold Quality Section */}
+      <div id="gold-quality" className="max-w-3xl mx-auto mb-16 scroll-mt-24">
+        <h2 className="text-2xl font-bold mb-8 pb-2 border-b border-gray-200">Gold Quality & Purity</h2>
+        
+        <div className="space-y-6">
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                What purity standards does your gold meet?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>All our investment gold products meet or exceed international standards:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>Gold bars: Minimum 99.5% pure (usually 99.99%, or "four nines fine")</li>
+                  <li>Gold coins: Ranges from 91.67% (22K) to 99.99% (24K) depending on the specific product</li>
+                  <li>Our gold bars comply with London Bullion Market Association (LBMA) Good Delivery standards</li>
+                </ul>
+                <p className="mt-2">Each product comes with certification verifying its weight and purity, and all our gold undergoes rigorous testing to ensure it meets these high standards.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                How do you verify the authenticity of your gold?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>We employ multiple authentication methods:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li><strong>XRF Spectrometry</strong>: Non-destructive testing that analyzes elemental composition</li>
+                  <li><strong>Ultrasonic Testing</strong>: Verifies internal structure and density</li>
+                  <li><strong>Specific Gravity Testing</strong>: Confirms density matches pure gold</li>
+                  <li><strong>Hallmark Verification</strong>: Authentication of official mint and refinery marks</li>
+                </ul>
+                <p className="mt-2">Our direct sourcing from mines and LBMA-accredited refineries ensures an unbroken chain of custody. Additionally, we maintain comprehensive documentation for every batch of gold we process.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                What documentation comes with your gold products?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Each gold purchase includes comprehensive documentation:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>Certificate of Authenticity with unique serial number</li>
+                  <li>Assay certificate verifying purity</li>
+                  <li>Weight verification document</li>
+                  <li>Purchase invoice and receipt</li>
+                  <li>For larger bars: Detailed provenance documentation</li>
+                </ul>
+                <p className="mt-2">These documents are essential for resale and verification purposes. We recommend storing them separately from your gold in a secure location. Digital copies are also provided for premium clients through our secure customer portal.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                Is your gold ethically and responsibly sourced?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Yes, we are committed to ethical sourcing practices:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>All gold comes from mines that meet strict environmental and labor standards</li>
+                  <li>We comply with OECD Due Diligence Guidance for Responsible Supply Chains</li>
+                  <li>Our direct partnerships with East African mines ensure transparency throughout the supply chain</li>
+                  <li>Regular third-party audits verify our compliance with responsible gold standards</li>
+                </ul>
+                <p className="mt-2">We can provide detailed information about the origin and production methods of our gold upon request. Our commitment to ethical sourcing is fundamental to our business model and values.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      {/* Shipping & Delivery Section */}
+      <div id="shipping-delivery" className="max-w-3xl mx-auto mb-16 scroll-mt-24">
+        <h2 className="text-2xl font-bold mb-8 pb-2 border-b border-gray-200">Shipping & Delivery</h2>
+        
+        <div className="space-y-6">
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                How is my gold shipped and secured during transit?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>We employ comprehensive security measures for all shipments:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>Discreet, unmarked packaging with no indication of contents</li>
+                  <li>Tamper-evident seals and security packaging</li>
+                  <li>Full insurance coverage for the entire value of your order</li>
+                  <li>For orders above $10,000: Armored courier service with GPS tracking</li>
+                  <li>For international orders: Secure customs documentation and handling</li>
+                </ul>
+                <p className="mt-2">All shipments require signature confirmation upon delivery, and we coordinate delivery times to ensure someone is available to receive valuable packages.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                What shipping methods are available?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>We offer several shipping options:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li><strong>Standard Secure Delivery</strong>: 5-7 business days (included free for orders over $5,000)</li>
+                  <li><strong>Express Secure Delivery</strong>: 2-3 business days (additional fee applies)</li>
+                  <li><strong>Premium Armored Courier</strong>: 1-2 business days (required for orders over $50,000)</li>
+                  <li><strong>International Secure Shipping</strong>: 7-14 business days depending on destination</li>
+                </ul>
+                <p className="mt-2">The appropriate shipping method is recommended based on your order value, location, and specific requirements. All methods include tracking and insurance.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                Is my gold shipment insured?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Yes, all shipments are fully insured:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>Insurance covers the full market value of your gold</li>
+                  <li>Coverage includes theft, loss, and damage during transit</li>
+                  <li>Underwritten by Lloyd's of London specialists in precious metals</li>
+                  <li>Insurance remains active until signature confirmation at delivery</li>
+                </ul>
+                <p className="mt-2">In the extremely rare event of an issue, our claims process is straightforward and efficient, with most claims resolved within 7-10 business days. The cost of insurance is already included in our shipping fees.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                Do you ship internationally?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Yes, we ship to most countries worldwide, with some considerations:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>International shipping is available to over 60 countries</li>
+                  <li>Customers are responsible for understanding their country's import regulations and taxes</li>
+                  <li>We provide all necessary export documentation</li>
+                  <li>International orders require additional verification steps for security</li>
+                </ul>
+                <p className="mt-2">International shipping times vary by destination, and additional customs clearance time may be required. For specific information about shipping to your country, please contact our customer service team.</p>
+              </div>
+            </details>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <details className="group">
+              <summary className="flex justify-between items-center p-6 cursor-pointer font-medium">
+                Do you offer secure storage instead of shipping?
+                <svg className="h-5 w-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="px-6 pb-6 text-gray-700">
+                <p>Yes, we offer secure storage options:</p>
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>State-of-the-art vault facilities with maximum security</li>
+                  <li>Fully segregated storage (your specific gold is allocated to you, not pooled)</li>
+                  <li>Complete insurance coverage through Lloyd's of London</li>
+                  <li>Regular auditing and verification by independent parties</li>
+                  <li>Ability to request physical delivery at any time</li>
+                </ul>
+                <p className="mt-2">Storage fees are based on the value of gold stored, typically 0.5-0.8% annually. For investors not requiring immediate physical possession, this option eliminates security concerns and simplifies future selling.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      {/* Still Have Questions */}
+      <div className="max-w-3xl mx-auto bg-amber-50 rounded-xl p-8 text-center mb-16">
+        <h2 className="text-2xl font-semibold mb-4">Still Have Questions?</h2>
+        <p className="text-lg mb-6">
+          Our gold experts are ready to help with any questions about investing in gold, 
+          our products, or your specific requirements.
+        </p>
+        <div className="flex justify-center space-x-4">
+          <Link href="/contact" className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+            Contact Us
+          </Link>
+          <Link href="/education" className="border border-amber-600 hover:bg-amber-100 text-amber-600 font-bold py-3 px-8 rounded-lg transition duration-300">
+            Gold Education
+          </Link>
+        </div>
+      </div>
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default FAQsPage;

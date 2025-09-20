@@ -1,0 +1,134 @@
+{
+  "productImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1610375461246-83df859d849d?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\products\\gold-bar-1.jpg",
+      "description": "Gold bar on dark background"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1574607383476-f517f260d30b?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\products\\gold-coins-1.jpg",
+      "description": "Stack of gold coins"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1610375461528-1e83d5e99e7e?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\products\\gold-nuggets-1.jpg",
+      "description": "Gold nuggets and flakes"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\products\\gold-jewelry-1.jpg",
+      "description": "Gold jewelry pieces"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1624365169198-28394fad2357?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\products\\gold-bars-2.jpg",
+      "description": "Multiple gold bars stacked"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1628934231236-04e0c2476e5d?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\products\\gold-investment-1.jpg",
+      "description": "Gold investment concept"
+    }
+  ],
+  "testimonialImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\testimonials\\david-chen.jpg",
+      "description": "Professional businessman for David Chen testimonial"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\testimonials\\sarah-johnson.jpg",
+      "description": "Professional woman for Sarah Johnson testimonial"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=800",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\testimonials\\michael-okafor.jpg",
+      "description": "African businessman for Michael Okafor testimonial"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\testimonials\\elena-petrova.jpg",
+      "description": "Professional woman for Elena Petrova testimonial"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=800",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\testimonials\\rajiv-patel.jpg",
+      "description": "Indian businessman for Rajiv Patel testimonial"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\testimonials\\aisha-mohammed.jpg",
+      "description": "Middle Eastern woman for Aisha Mohammed testimonial"
+    }
+  ],
+  "securityImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\security\\vault.jpg",
+      "description": "Secure vault for gold storage"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1558002038-2f2225c4a854?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\security\\security-system.jpg",
+      "description": "Modern security system"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\security\\transaction-security.jpg",
+      "description": "Secure transaction concept"
+    }
+  ],
+  "educationImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\education\\gold-info-1.jpg",
+      "description": "Gold investment education"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1544711716-983afa11c6d5?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\education\\gold-history.jpg",
+      "description": "Historical gold artifacts"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\education\\gold-market.jpg",
+      "description": "Gold market analysis chart"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1605266373617-0ffe6b171e63?q=80&w=1200",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\education\\gold-mining.jpg",
+      "description": "Ethical gold mining operation"
+    }
+  ],
+  "backgroundImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1603664454146-50b9bb1e7afa?q=80&w=1920",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\backgrounds\\certification-bg.jpg",
+      "description": "Certification background"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1534470397273-a1c5311d09d2?q=80&w=1920",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\backgrounds\\cta-bg.jpg",
+      "description": "CTA background"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1631162905392-4106574ea96f?q=80&w=1920",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\backgrounds\\pricing-bg.jpg",
+      "description": "Pricing page background"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1589044762620-213164805346?q=80&w=1920",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\gold-background.jpg",
+      "description": "Gold background for hero section"
+    }
+  ],
+  "heroImages": [
+    {
+      "url": "https://images.unsplash.com/photo-1589044762620-213164805346?q=80&w=1920",
+      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\gold-background.jpg",
+      "description": "Gold background for hero section"
+    }
+  ]
+}
