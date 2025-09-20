@@ -80,7 +80,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-lg font-semibold mb-2">How do I request a quote for gold?</h3>
-              <p className="text-gray-600">Fill out our contact form with details about the type and quantity of gold you're interested in purchasing.</p>
+              <p className="text-gray-600">Fill out our contact form with details about the type and quantity of gold you&apos;re interested in purchasing.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-2">What are your minimum order quantities?</h3>

@@ -59,12 +59,12 @@ export default function GoldEducationPage() {
                 Unlike paper currencies which can depreciate due to inflation, gold has historically preserved purchasing power over long periods.
               </p>
               <p className="text-gray-700 mb-4">
-                When analyzing gold's performance over the past century, it has consistently served as a hedge against major economic downturns, 
+                When analyzing gold&apos;s performance over the past century, it has consistently served as a hedge against major economic downturns, 
                 including the Great Depression, the 1970s stagflation, the 2008 financial crisis, and more recently during the COVID-19 pandemic.
               </p>
               <div className="p-4 bg-amber-50 rounded-lg border border-amber-200">
                 <p className="font-medium text-amber-800">
-                  "Gold has maintained its value throughout 6,000 years of civilization, while countless currencies have risen and fallen."
+                  &ldquo;Gold has maintained its value throughout 6,000 years of civilization, while countless currencies have risen and fallen.&rdquo;
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function GoldEducationPage() {
               <h3 className="text-2xl font-semibold mb-4 text-amber-700">Liquidity and Universal Value</h3>
               <p className="text-gray-700 mb-4">
                 Gold is highly liquid and can be quickly converted to cash in virtually any currency, anywhere in the world. 
-                It's recognized and valued across all cultures and economies.
+                It&apos;s recognized and valued across all cultures and economies.
               </p>
               <p className="text-gray-700 mb-4">
                 In times of geopolitical instability or currency crises, gold often serves as a safe haven asset and a form of 
@@ -140,7 +140,7 @@ export default function GoldEducationPage() {
               </p>
               <div className="p-4 bg-amber-50 rounded-lg border border-amber-200 mt-4">
                 <p className="font-medium text-amber-800">
-                  "Gold is the only financial asset that is not simultaneously someone else's liability."
+                  &ldquo;Gold is the only financial asset that is not simultaneously someone else&apos;s liability.&rdquo;
                 </p>
               </div>
             </div>
@@ -172,14 +172,14 @@ export default function GoldEducationPage() {
                 <div className="p-4 bg-white rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold mb-2 text-amber-700">24 Karat (99.9% Pure)</h3>
                   <p className="text-gray-700">
-                    The highest purity gold commercially available. This is considered "investment grade" gold and is used for gold bars, 
-                    coins and some high-end jewelry. It's soft and malleable, with a rich yellow color.
+                    The highest purity gold commercially available. This is considered &ldquo;investment grade&rdquo; gold and is used for gold bars, 
+                    coins and some high-end jewelry. It&apos;s soft and malleable, with a rich yellow color.
                   </p>
                 </div>
                 <div className="p-4 bg-white rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold mb-2 text-amber-700">22 Karat (91.7% Pure)</h3>
                   <p className="text-gray-700">
-                    Used primarily for high-quality jewelry and some coins. It's more durable than 24K gold while maintaining 
+                    Used primarily for high-quality jewelry and some coins. It&apos;s more durable than 24K gold while maintaining 
                     most of the valuable properties.
                   </p>
                 </div>
@@ -358,7 +358,7 @@ export default function GoldEducationPage() {
             <ul className="list-disc pl-5 text-gray-700 space-y-2">
               <li><strong>Direct ownership</strong> - You own the actual gold, not a paper promise</li>
               <li><strong>Privacy</strong> - Physical gold can be held privately outside the financial system</li>
-              <li><strong>No counterparty risk</strong> - Not dependent on any financial institution's stability</li>
+              <li><strong>No counterparty risk</strong> - Not dependent on any financial institution&apos;s stability</li>
               <li><strong>Long-term value</strong> - Physical gold has preserved wealth for thousands of years</li>
             </ul>
             <div className="mt-6">
@@ -584,7 +584,7 @@ export default function GoldEducationPage() {
               </p>
               <ul className="list-disc pl-5 text-gray-700 space-y-2 mb-6">
                 <li>100% allocated ownership with segregated storage</li>
-                <li>Full insurance through Lloyd's of London</li>
+                <li>Full insurance through Lloyd&apos;s of London</li>
                 <li>Regular third-party auditing</li>
                 <li>Option for physical delivery at any time</li>
                 <li>Competitive storage rates starting at 0.5% annually</li>
@@ -645,7 +645,7 @@ export default function GoldEducationPage() {
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold mb-3">How do I know I'm getting authentic gold?</h3>
+                  <h3 className="text-xl font-semibold mb-3">How do I know I&apos;m getting authentic gold?</h3>
                   <p className="text-gray-700">
                     All our gold products come with certificates of authenticity and have been independently verified for purity. 
                     We only source from reputable refineries and mines with strong track records. Each product includes documentation 
@@ -672,11 +672,11 @@ export default function GoldEducationPage() {
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold mb-3">What's the difference between allocated and unallocated gold?</h3>
+                  <h3 className="text-xl font-semibold mb-3">What&apos;s the difference between allocated and unallocated gold?</h3>
                   <p className="text-gray-700">
                     Allocated gold means you own specific, identifiable pieces of gold held in your name. Unallocated gold represents 
                     a claim on a portion of gold held by a bank or dealer without specific bars assigned to you. We strongly recommend 
-                    allocated gold ownership as it eliminates counterparty risk in the event of a financial institution's failure.
+                    allocated gold ownership as it eliminates counterparty risk in the event of a financial institution&apos;s failure.
                   </p>
                 </div>
               </div>

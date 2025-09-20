@@ -29,7 +29,7 @@ export default function PricingPage() {
             middlemen markup, offering you the best value for authentic East African gold.
           </p>
           <div className="inline-block px-6 py-3 bg-amber-600 hover:bg-amber-700 rounded-lg text-white font-semibold transition-colors">
-            <Link href="#current-prices">View Today's Prices</Link>
+            <Link href="#current-prices">View Today&apos;s Prices</Link>
           </div>
         </div>
       </section>
@@ -101,7 +101,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16 text-center">
             <span className="block text-amber-600 font-semibold mb-2">PRICING GUIDE</span>
-            <h2 className="text-4xl font-bold mb-4">Today's Gold Prices</h2>
+            <h2 className="text-4xl font-bold mb-4">Today&apos;s Gold Prices</h2>
             <div className="h-1 w-24 bg-amber-600 mx-auto mb-8"></div>
             <p className="text-lg max-w-3xl mx-auto text-gray-600">
               <span className="font-bold">Current Gold Spot Price: $1,952.80 per troy ounce</span><br />
@@ -180,7 +180,7 @@ export default function PricingPage() {
                     <span className="font-bold text-amber-600">$66.00/g</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="font-medium">Collector's Premium</span>
+                    <span className="font-medium">Collector&apos;s Premium</span>
                     <span className="font-bold text-amber-600">+10-20%</span>
                   </div>
                 </div>
@@ -290,7 +290,7 @@ export default function PricingPage() {
           <h2 className="text-3xl font-bold mb-6">Our Price Guarantee</h2>
           <p className="text-xl max-w-3xl mx-auto mb-8">
             If you find the same quality gold product at a lower price from another certified direct seller, 
-            we'll match that price plus give you an additional 1% discount.
+            we&apos;ll match that price plus give you an additional 1% discount.
           </p>
           <Link href="/contact" className="inline-block px-8 py-3 bg-white text-amber-600 rounded-lg font-bold hover:bg-gray-100 transition-colors">
             Contact Us For A Quote

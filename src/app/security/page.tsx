@@ -102,7 +102,7 @@ export default function SecurityPage() {
                 <div>
                   <h3 className="text-xl font-semibold mb-3 text-amber-700">Insurance Coverage</h3>
                   <p className="text-gray-600 mb-4">
-                    All stored gold is fully insured through Lloyd's of London with comprehensive coverage:
+                    All stored gold is fully insured through Lloyd&apos;s of London with comprehensive coverage:
                   </p>
                   <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">
                     <li>Full market value coverage for theft, damage, or loss</li>

@@ -7,7 +7,7 @@ import CertificationsSection from "@/components/CertificationsSection";
 import CTASection from "@/components/CTASection";
 import EducationSection from "@/components/EducationSection";
 import SecuritySection from "@/components/SecuritySection";
-import Image from "next/image";
+
 import Link from "next/link";
 
 export default function Home() {

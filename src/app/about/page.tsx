@@ -17,7 +17,7 @@ export default function AboutPage() {
           <h1 className="text-5xl font-bold mb-6 leading-tight">About East African Gold Direct</h1>
           <p className="text-xl text-gray-300 max-w-3xl mb-8">
             East African Gold Direct is the premier direct seller of high-quality gold 
-            sourced from East Africa's most reputable mining operations, offering authentic products 
+            sourced from East Africa&apos;s most reputable mining operations, offering authentic products 
             with transparent pricing and unmatched quality assurance.
           </p>
           <div className="flex flex-wrap gap-4">
@@ -109,7 +109,7 @@ export default function AboutPage() {
             <h2 className="text-4xl font-bold mb-4">Core Values</h2>
             <div className="h-1 w-24 bg-amber-600 mx-auto mb-8"></div>
             <p className="max-w-3xl mx-auto text-gray-600">
-              Our values guide every aspect of our business, from sourcing to delivery. They're the foundation of our reputation and the reason our customers trust us.
+              Our values guide every aspect of our business, from sourcing to delivery. They&apos;re the foundation of our reputation and the reason our customers trust us.
             </p>
           </div>
           
@@ -122,7 +122,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Integrity</h3>
               <p className="text-gray-600 text-center">
-                We maintain the highest standards of honesty and ethical conduct in all our operations. Our business is built on trust, transparency, and doing what's right—even when no one is watching.
+                We maintain the highest standards of honesty and ethical conduct in all our operations. Our business is built on trust, transparency, and doing what&apos;s right—even when no one is watching.
               </p>
             </div>
             
@@ -158,7 +158,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Customer Focus</h3>
               <p className="text-gray-600 text-center">
-                Our customers are at the heart of everything we do. We're committed to delivering exceptional service, personalized attention, and building lasting relationships based on trust and mutual respect.
+                Our customers are at the heart of everything we do. We&apos;re committed to delivering exceptional service, personalized attention, and building lasting relationships based on trust and mutual respect.
               </p>
             </div>
             
@@ -170,7 +170,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Transparency</h3>
               <p className="text-gray-600 text-center">
-                We believe in complete transparency in our pricing, sourcing, and business practices. Our customers always know exactly what they're paying for—with no hidden fees or surprises.
+                We believe in complete transparency in our pricing, sourcing, and business practices. Our customers always know exactly what they&apos;re paying for—with no hidden fees or surprises.
               </p>
             </div>
             

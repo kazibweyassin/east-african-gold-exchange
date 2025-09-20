@@ -14,7 +14,7 @@ export default function SuppliersPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-6">Become a Supplier</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
-            Partner with East African Gold Direct as a trusted gold supplier. We're always 
+            Partner with East African Gold Direct as a trusted gold supplier. We&apos;re always 
             looking for quality gold sources to expand our offerings.
           </p>
         </div>

@@ -43,7 +43,7 @@ export default function TestimonialsSection() {
               </div>
             </div>
             <p className="text-gray-700 italic">
-              "Working directly with East African Gold Direct has eliminated so many hassles in my supply chain. The quality is consistent, pricing is transparent, and I know exactly where my gold is coming from."
+              &ldquo;Working directly with East African Gold Direct has eliminated so many hassles in my supply chain. The quality is consistent, pricing is transparent, and I know exactly where my gold is coming from.&rdquo;
             </p>
           </div>
 
@@ -79,7 +79,7 @@ export default function TestimonialsSection() {
               </div>
             </div>
             <p className="text-gray-700 italic">
-              "As an investment firm, we appreciate dealing directly with gold sellers instead of brokers. East African Gold Direct provides excellent documentation and their gold quality exceeds industry standards."
+              &ldquo;As an investment firm, we appreciate dealing directly with gold sellers instead of brokers. East African Gold Direct provides excellent documentation and their gold quality exceeds industry standards.&rdquo;
             </p>
           </div>
 
@@ -115,7 +115,7 @@ export default function TestimonialsSection() {
               </div>
             </div>
             <p className="text-gray-700 italic">
-              "I've purchased gold from many sellers over the years, but East African Gold Exchange offers the best value by far. Dealing directly with them means better prices and authentic, high-quality gold every time."
+              &ldquo;I&apos;ve purchased gold from many sellers over the years, but East African Gold Exchange offers the best value by far. Dealing directly with them means better prices and authentic, high-quality gold every time.&rdquo;
             </p>
           </div>
         </div>

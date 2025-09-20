@@ -55,7 +55,7 @@ const SecuritySection = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Full Insurance Coverage</h3>
                 <p className="text-gray-600">
-                  Every ounce of gold in our custody is fully insured through Lloyd's of London,
+                  Every ounce of gold in our custody is fully insured through Lloyd&apos;s of London,
                   covering theft, loss, damage, and transit security up to the full market value.
                 </p>
               </div>
@@ -66,7 +66,7 @@ const SecuritySection = () => {
             <div className="flex-1 p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">Our Security Commitment</h3>
               <p className="mb-6">
-                At East African Gold Exchange, security isn't just a feature—it's built into everything we do.
+                At East African Gold Exchange, security isn&apos;t just a feature—it&apos;s built into everything we do.
                 From sourcing to delivery, every step of our process is designed with your security in mind.
               </p>
               <ul className="space-y-3 mb-8">
