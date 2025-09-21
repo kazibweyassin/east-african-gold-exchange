@@ -101,34 +101,5 @@
       "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\education\\gold-mining.jpg",
       "description": "Ethical gold mining operation"
     }
-  ],
-  "backgroundImages": [
-    {
-      "url": "https://images.unsplash.com/photo-1603664454146-50b9bb1e7afa?q=80&w=1920",
-      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\backgrounds\\certification-bg.jpg",
-      "description": "Certification background"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1534470397273-a1c5311d09d2?q=80&w=1920",
-      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\backgrounds\\cta-bg.jpg",
-      "description": "CTA background"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1631162905392-4106574ea96f?q=80&w=1920",
-      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\backgrounds\\pricing-bg.jpg",
-      "description": "Pricing page background"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1589044762620-213164805346?q=80&w=1920",
-      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\gold-background.jpg",
-      "description": "Gold background for hero section"
-    }
-  ],
-  "heroImages": [
-    {
-      "url": "https://images.unsplash.com/photo-1589044762620-213164805346?q=80&w=1920",
-      "path": "F:\\Project\\Ailes_travel\\east-african-gold-exchange\\public\\images\\unsplash\\gold-background.jpg",
-      "description": "Gold background for hero section"
-    }
   ]
 }

@@ -10,8 +10,6 @@ export default function CertificationsSection() {
           alt="Gold certification background" 
           fill
           className="object-cover"
-          sizes="100vw"
-          quality={75}
         />
         <div className="absolute inset-0 bg-gray-900/70" />
       </div>

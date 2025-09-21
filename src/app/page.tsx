@@ -8,8 +8,6 @@ import CTASection from "@/components/CTASection";
 import EducationSection from "@/components/EducationSection";
 import SecuritySection from "@/components/SecuritySection";
 
-import Link from "next/link";
-
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">

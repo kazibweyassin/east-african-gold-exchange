@@ -11,8 +11,6 @@ export default function CTASection() {
           alt="Gold background" 
           fill
           className="object-cover"
-          sizes="100vw"
-          quality={75}
         />
         <div className="absolute inset-0 bg-amber-900/70" />
       </div>
