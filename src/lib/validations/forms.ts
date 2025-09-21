@@ -1,13 +1,5 @@
 import { z } from 'zod'
 
-export const testimonialFormSchema = z.object({
-  name: z.string().min(2, 'Name must be at least 2 characters'),
-  email: z.string().email('Invalid email address'),
-  role: z.string().min(2, 'Role/Title must be at least 2 characters'),
-  rating: z.number().min(1).max(5, 'Please select a rating from 1 to 5'),
-  testimonial: z.string().min(10, 'Testimonial must be at least 10 characters')
-})
-
 export const contactFormSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
   email: z.string().email('Invalid email address'),
@@ -32,4 +24,3 @@ export const supplierFormSchema = z.object({
 
 export type ContactFormValues = z.infer<typeof contactFormSchema>
 export type SupplierFormValues = z.infer<typeof supplierFormSchema>
-export type TestimonialFormValues = z.infer<typeof testimonialFormSchema>

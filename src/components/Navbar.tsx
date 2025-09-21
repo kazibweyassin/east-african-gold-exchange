@@ -30,7 +30,6 @@ export default function Navbar() {
     { href: '/products', label: 'Products' },
     { href: '/pricing', label: 'Pricing' },
     { href: '/security', label: 'Security' },
-    { href: '/testimonials', label: 'Testimonials' },
     { href: '/education', label: 'Education' },
     { href: '/faqs', label: 'FAQs' },
     { href: '/contact', label: 'Contact' },

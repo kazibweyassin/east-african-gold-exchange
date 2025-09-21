@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductShowcase from "@/components/ProductShowcase";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import CertificationsSection from "@/components/CertificationsSection";
 import CTASection from "@/components/CTASection";
 import EducationSection from "@/components/EducationSection";
@@ -62,8 +61,6 @@ export default function Home() {
       {/* Product Showcase */}
       <ProductShowcase />
       
-      <TestimonialsSection />
-
       <SecuritySection />
       
       <EducationSection />
