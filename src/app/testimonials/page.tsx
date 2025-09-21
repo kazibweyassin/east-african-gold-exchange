@@ -2,8 +2,14 @@ import React from 'react';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import TestimonialSubmission from '@/components/TestimonialSubmission';
 import StarRating from '@/components/StarRating';
+import dynamic from 'next/dynamic';
+
+// Dynamically import the TestimonialSubmission component with no SSR
+const TestimonialSubmission = dynamic(
+  () => import('@/components/TestimonialSubmission'),
+  { ssr: false }
+);
 
 const TestimonialsPage = () => {
   // Array of testimonials
