@@ -3,13 +3,6 @@ import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import StarRating from '@/components/StarRating';
-import dynamic from 'next/dynamic';
-
-// Dynamically import the TestimonialSubmission component with no SSR
-const TestimonialSubmission = dynamic(
-  () => import('@/components/TestimonialSubmission'),
-  { ssr: false }
-);
 
 const TestimonialsPage = () => {
   // Array of testimonials
@@ -132,7 +125,20 @@ const TestimonialsPage = () => {
               We value your feedback! If you&apos;ve done business with us, please consider sharing your experience.
             </p>
             
-            <TestimonialSubmission />
+            <div className="text-center">
+              <p className="text-gray-700 mb-4">
+                Contact us to share your testimonial and experience with East African Gold Exchange.
+              </p>
+              <a 
+                href="/contact" 
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-amber-600 hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500 transition-colors"
+              >
+                Contact Us
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
