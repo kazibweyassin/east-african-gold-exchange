@@ -21,7 +21,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: info@eastafricangoldexchange.com</li>
+              <li>Email: kazibweusama@gmail.com</li>
               <li>Phone: +254 700 123 456</li>
               <li>Location: Nairobi, Kenya</li>
             </ul>

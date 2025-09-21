@@ -40,10 +40,26 @@ export default function SupplierForm() {
 
   const onSubmit = async (data: SupplierFormValues) => {
     try {
-      // TODO: Implement form submission logic
-      console.log('Form submitted:', data)
+      const response = await fetch('/api/supplier', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+
+      const result = await response.json()
+
+      if (result.success) {
+        // Reset form on success
+        form.reset()
+        alert(result.message)
+      } else {
+        alert(result.message)
+      }
     } catch (error) {
       console.error('Error submitting form:', error)
+      alert('There was an error submitting your application. Please try again.')
     }
   }
 

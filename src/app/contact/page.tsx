@@ -31,7 +31,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Email</h3>
-                <p className="text-gray-600">info@eastafricangolddirect.com</p>
+                <p className="text-gray-600">kazibweusama@gmail.com</p>
               </CardContent>
             </Card>
 
