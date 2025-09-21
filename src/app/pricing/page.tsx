@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Card, CardContent } from '@/components/ui/card';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -325,7 +324,6 @@ export default function PricingPage() {
             <div className="border-b border-gray-200 pb-8">
               <h3 className="text-xl font-bold mb-3">What payment methods do you accept?</h3>
               <p className="text-gray-600">
-                We accept bank transfers, secure credit card payments, and selected cryptocurrencies. For orders over $10,000, we offer escrow services for additional security.
               </p>
             </div>
             
